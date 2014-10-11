@@ -67,14 +67,14 @@
     <OutDir>$(SolutionDir)\build\</OutDir>
     <IncludePath>$(SolutionDir)\libraries\glew-1.10.0\include;$(SolutionDir)\libraries\SDL2-2.0.3\include;$(SolutionDir)\libraries\glm;$(SolutionDir)\libraries\glfx\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\libraries\glew-1.10.0\lib\Release\Win32;$(SolutionDir)\libraries\SDL2-2.0.3\lib\x86;$(SolutionDir)\libraries\glfx\x86;$(LibraryPath)</LibraryPath>
-    <IntDir />
+    <IntDir>$(SolutionDir)\build\</IntDir>
     <TargetName>$(ProjectName)_$(PlatformTarget)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)\build\</OutDir>
     <IncludePath>$(SolutionDir)\libraries\glew-1.10.0\include;$(SolutionDir)\libraries\SDL2-2.0.3\include;$(SolutionDir)\libraries\glm;$(SolutionDir)\libraries\glfx\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\libraries\glew-1.10.0\lib\Release\Win32;$(SolutionDir)\libraries\SDL2-2.0.3\lib\x86;$(SolutionDir)\libraries\glfx\x86;$(LibraryPath)</LibraryPath>
-    <IntDir />
+    <IntDir>$(SolutionDir)\build\</IntDir>
     <TargetName>$(ProjectName)_$(PlatformTarget)_d</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
