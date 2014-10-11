@@ -2,7 +2,7 @@
 #include "Prerequites.h"
 #include "Context.h"
 
-namespace NJine
+namespace Coconart
 {
 
 	class Root

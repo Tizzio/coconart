@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "Texture.h"
 #include "lodepng.h"
-using namespace NJine;
+using namespace Coconart;
 
 Texture::Texture()
 {

@@ -2,5 +2,5 @@
 
 int main(int argc, char* argv[])
 {
-	return NJine::ROOT.context.StartApplication(800, 600);
+	return Coconart::ROOT.context.StartApplication(800, 600);
 }

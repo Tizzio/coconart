@@ -1,6 +1,6 @@
 #include "Application.h"
 #include "Coconart.h"
-using namespace NJine;
+using namespace Coconart;
 
 
 Shader basic_shader;

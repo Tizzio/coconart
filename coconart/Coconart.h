@@ -1,6 +1,6 @@
 #pragma once
 
-//include all NJine headers
+//include all Coconart headers
 #include "Prerequites.h"
 #include "Root.h"
 #include "Mesh.h"

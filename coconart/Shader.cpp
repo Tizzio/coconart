@@ -1,5 +1,5 @@
 #include "Shader.h"
-using namespace NJine;
+using namespace Coconart;
 
 Shader::Shader()
 {

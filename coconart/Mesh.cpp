@@ -1,5 +1,5 @@
 #include "Mesh.h"
-using namespace NJine;
+using namespace Coconart;
 
 Mesh::Mesh()
 {

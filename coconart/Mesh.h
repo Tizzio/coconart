@@ -1,7 +1,7 @@
 #pragma once
 #include "Prerequites.h"
 
-namespace NJine
+namespace Coconart
 {
 
 	class Vertex

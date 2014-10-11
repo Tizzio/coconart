@@ -1,6 +1,6 @@
 #include "Context.h"
 #include "Application.h"
-using namespace NJine;
+using namespace Coconart;
 
 bool ContextSDL::Init()
 {

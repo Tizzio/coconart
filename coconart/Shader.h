@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-namespace NJine
+namespace Coconart
 {
 
 	class Shader
