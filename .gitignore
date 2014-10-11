@@ -8,14 +8,15 @@
 
 # Build results
 
-[Dd]ebug/
-[Rr]elease/
+/coconart/[Dd]ebug/
+/coconart/[Rr]elease/
 x64/
 [Bb]in/
 [Oo]bj/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
+ 
 
 # Enable build and release folders
 !build/
@@ -27,7 +28,7 @@ build/*.exe
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-
+*.idb
 *_i.c
 *_p.c
 *.ilk
@@ -51,6 +52,7 @@ build/*.exe
 *.pidb
 *.log
 *.scc
+*.tlog
 
 # Visual C++ cache files
 ipch/
@@ -160,4 +162,3 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
-/coconart/coconart.tlog
