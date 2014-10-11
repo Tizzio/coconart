@@ -10,10 +10,12 @@ bool ContextSDL::Init()
 		return false;
 	}
 
-	/*if (!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1"))
+	/*
+	if (!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1"))
 	{
-	//Log("Unable to Init hinting: %s", SDL_GetError());
-	}*/
+		Log("Unable to Init hinting: %s", SDL_GetError());
+	}
+	*/
 
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
