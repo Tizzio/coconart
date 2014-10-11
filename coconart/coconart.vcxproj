@@ -15,8 +15,8 @@
     <ClInclude Include="Coconart.h" />
     <ClInclude Include="Context.h" />
     <ClInclude Include="GameObject.h" />
-    <ClInclude Include="Libraries\JSON\json-forwards.h" />
-    <ClInclude Include="Libraries\JSON\json.h" />
+    <ClInclude Include="Libraries\jsoncpp\json-forwards.h" />
+    <ClInclude Include="Libraries\jsoncpp\json.h" />
     <ClInclude Include="Libraries\LodePng\lodepng.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Prerequites.h" />
@@ -28,7 +28,7 @@
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Context.cpp" />
     <ClCompile Include="GameObject.cpp" />
-    <ClCompile Include="Libraries\JSON\jsoncpp.cpp" />
+    <ClCompile Include="Libraries\jsoncpp\jsoncpp.cpp" />
     <ClCompile Include="Libraries\LodePng\lodepng.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Mesh.cpp" />

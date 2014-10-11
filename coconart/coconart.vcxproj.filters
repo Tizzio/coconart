@@ -10,6 +10,12 @@
     <Filter Include="Application">
       <UniqueIdentifier>{0dff3793-6aa6-4962-b8ab-d9494163bfd6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Libraries\jsoncpp">
+      <UniqueIdentifier>{bace246c-9fea-4199-902f-f34d9f3c89df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\lodepng">
+      <UniqueIdentifier>{354695f0-afa3-4f7e-be4d-790d2c59e1a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coconart.h">
@@ -36,17 +42,17 @@
     <ClInclude Include="Texture.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Libraries\JSON\json.h">
-      <Filter>Libraries</Filter>
-    </ClInclude>
-    <ClInclude Include="Libraries\JSON\json-forwards.h">
-      <Filter>Libraries</Filter>
-    </ClInclude>
-    <ClInclude Include="Libraries\LodePng\lodepng.h">
-      <Filter>Libraries</Filter>
-    </ClInclude>
     <ClInclude Include="Application.h">
       <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\LodePng\lodepng.h">
+      <Filter>Libraries\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\jsoncpp\json.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\jsoncpp\json-forwards.h">
+      <Filter>Libraries\jsoncpp</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -68,14 +74,14 @@
     <ClCompile Include="Texture.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\JSON\jsoncpp.cpp">
-      <Filter>Libraries</Filter>
-    </ClCompile>
-    <ClCompile Include="Libraries\LodePng\lodepng.cpp">
-      <Filter>Libraries</Filter>
-    </ClCompile>
     <ClCompile Include="Application.cpp">
       <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\LodePng\lodepng.cpp">
+      <Filter>Libraries\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\jsoncpp\jsoncpp.cpp">
+      <Filter>Libraries\jsoncpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
