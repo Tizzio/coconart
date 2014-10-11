@@ -18,8 +18,9 @@ x64/
 !packages/*/build/
 
 # Enable build and release folders
-!build/[Dd]ebug/
-!build/[Rr]elease/
+!build/
+
+build/*.exe
 
 
 # MSTest test Results
@@ -159,3 +160,4 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/coconart/coconart.tlog
