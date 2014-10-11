@@ -20,6 +20,9 @@
     <Filter Include="Coconart\Libraries\LodePng">
       <UniqueIdentifier>{0e975d5a-3a63-45a1-aa09-824a74b6daf6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Coconart\Libraries\Jsoncpp">
+      <UniqueIdentifier>{12cc9e73-9598-49c8-b40f-8293e81771d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Prerequites.h">
@@ -52,6 +55,12 @@
     <ClInclude Include="lodepng.h">
       <Filter>Coconart\Libraries\LodePng</Filter>
     </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Coconart\Libraries\Jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="json-forwards.h">
+      <Filter>Coconart\Libraries\Jsoncpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Context.cpp">
@@ -77,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="lodepng.cpp">
       <Filter>Coconart\Libraries\LodePng</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>Coconart\Libraries\Jsoncpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
