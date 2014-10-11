@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "Texture.h"
-#include "lodepng.h"
+#include "Libraries/LodePng/lodepng.h"
 using namespace Coconart;
 
 Texture::Texture()
