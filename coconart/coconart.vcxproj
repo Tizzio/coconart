@@ -10,6 +10,31 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\Application.cpp" />
+    <ClCompile Include="Engine\Context.cpp" />
+    <ClCompile Include="Engine\GameObject.cpp" />
+    <ClCompile Include="Engine\Main.cpp" />
+    <ClCompile Include="Engine\Mesh.cpp" />
+    <ClCompile Include="Engine\Shader.cpp" />
+    <ClCompile Include="Engine\Texture.cpp" />
+    <ClCompile Include="Libraries\JSON\jsoncpp.cpp" />
+    <ClCompile Include="Libraries\LodePng\lodepng.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\Application.h" />
+    <ClInclude Include="Engine\Coconart.h" />
+    <ClInclude Include="Engine\Context.h" />
+    <ClInclude Include="Engine\GameObject.h" />
+    <ClInclude Include="Engine\Mesh.h" />
+    <ClInclude Include="Engine\Prerequites.h" />
+    <ClInclude Include="Engine\Root.h" />
+    <ClInclude Include="Engine\Shader.h" />
+    <ClInclude Include="Engine\Texture.h" />
+    <ClInclude Include="Libraries\JSON\json-forwards.h" />
+    <ClInclude Include="Libraries\JSON\json.h" />
+    <ClInclude Include="Libraries\LodePng\lodepng.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CF6F2035-59A0-4842-9AD1-6272E0AA0AEF}</ProjectGuid>
     <RootNamespace>coconart</RootNamespace>
