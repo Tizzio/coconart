@@ -30,7 +30,7 @@ bool ContextSDL::Init()
 	//SDL_GL_SetAttribute(SDL_GL_MULTISAMPLESAMPLES, 4);
 
 	window = SDL_CreateWindow(
-		"Minecraft",
+		"Coconart",
 		SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
 		WindowWidth, WindowHeight, SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
@@ -60,7 +60,7 @@ bool ContextSDL::Init()
 	}
 	if (!glewIsSupported("GL_VERSION_3_3"))
 	{
-		cout << "Molto probabilmente non supporti opengl 3.3" << endl;
+		cout << "OpenGL 3.3 required!" << endl;
 		return false;
 	}
 	glGetError();
