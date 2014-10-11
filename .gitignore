@@ -17,6 +17,10 @@ x64/
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
 
+# Enable build and release folders
+!build/[Dd]ebug/
+!build/[Rr]elease/
+
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
