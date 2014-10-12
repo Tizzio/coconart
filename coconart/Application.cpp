@@ -7,8 +7,15 @@ Shader basic_shader;
 Mesh basic_mesh;
 TextureArray basic_texture;
 
+#include "ResourceManager.h"
+using namespace Coconart;
+
+
 void Application::Init()
 {
+	
+	Sprite* dsa = ResourceManager::LoadSprite("linuxari gay");
+	cout << dsa->name << endl;
 	if (basic_shader.Load("data\\shaders\\basic.glsl", "Basic"))
 	{
 		cout << "shader loaded" << endl;

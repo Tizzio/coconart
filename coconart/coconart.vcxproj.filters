@@ -25,6 +25,12 @@
     <Filter Include="Engine\Utility">
       <UniqueIdentifier>{1117e72f-fe23-4a11-a9f3-8e6677d3fe1b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Resources\ResourceManager">
+      <UniqueIdentifier>{2dcaa294-4f03-4eac-a665-f68912ed19d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resources\Resources">
+      <UniqueIdentifier>{a3778749-3483-4d17-96c7-52a4e3402d85}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h">
@@ -54,20 +60,29 @@
     <ClInclude Include="Root.h">
       <Filter>Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Mesh.h">
-      <Filter>Engine\Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="Shader.h">
-      <Filter>Engine\Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>Engine\Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="Image.h">
-      <Filter>Engine\Resources</Filter>
-    </ClInclude>
     <ClInclude Include="Utility.h">
       <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine\Resources\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTemplate.h">
+      <Filter>Engine\Resources\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Engine\Resources\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine\Resources\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine\Resources\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Resources\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Resources\Resources</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -89,20 +104,23 @@
     <ClCompile Include="Main.cpp">
       <Filter>Engine\Core</Filter>
     </ClCompile>
-    <ClCompile Include="Mesh.cpp">
-      <Filter>Engine\Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="Shader.cpp">
-      <Filter>Engine\Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>Engine\Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="Image.cpp">
-      <Filter>Engine\Resources</Filter>
-    </ClCompile>
     <ClCompile Include="Utility.cpp">
       <Filter>Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\Resources\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Engine\Resources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Engine\Resources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine\Resources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Resources\Resources</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
