@@ -2,6 +2,7 @@
 #include "Texture.h"
 #include "Libraries\lodepng\lodepng.h"
 #include "Libraries\jsoncpp\json.h"
+#include "Utility.h"
 
 #include <fstream>
 using namespace std;
@@ -82,29 +83,9 @@ void TextureArray::Delete()
 
 bool TextureArray::Load(const string& filename)
 {
-	std::ifstream t;
-	int length;
-	t.open(filename);					// open input file
-	if (!t)	{ return false; }			//failed to open file
-	t.seekg(0, std::ios::end);			// go to the end
-	length = t.tellg();					// report location (this is the length)
-	if (length == 0) { return false; }	//no data
-	t.seekg(0, std::ios::beg);			// go back to the beginning
-	char* buffer = new char[length];	// allocate memory for a buffer of appropriate dimension
-	t.read(buffer, length);				// read the whole file into the buffer
-	t.close();
-
 	Json::Value root;
-	Json::Reader reader;
-	bool parsingSuccessful = reader.parse(buffer, buffer + length, root, false);
-	delete buffer;
-	if (!parsingSuccessful)
-	{
-			cout << "Failed to parse JSON" << endl
-			<< reader.getFormattedErrorMessages()
-			<< endl;
-			return false;
-	}
+	if (!JsonLoad(root, filename)) { return false; }
+
 	const Json::Value tex_width = root["width"];
 	const Json::Value tex_height = root["height"];
 	const Json::Value tex_array = root["layers"];

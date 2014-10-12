@@ -22,6 +22,9 @@
     <Filter Include="Engine\Resources">
       <UniqueIdentifier>{05b1578e-e1a0-4db6-8d8b-85ce6e6eb273}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Utility">
+      <UniqueIdentifier>{1117e72f-fe23-4a11-a9f3-8e6677d3fe1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h">
@@ -60,6 +63,12 @@
     <ClInclude Include="Texture.h">
       <Filter>Engine\Resources</Filter>
     </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp">
@@ -88,6 +97,12 @@
     </ClCompile>
     <ClCompile Include="Texture.cpp">
       <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Engine\Utility</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
