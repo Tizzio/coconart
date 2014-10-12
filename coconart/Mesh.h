@@ -8,7 +8,7 @@ namespace Coconart
 	{
 	public:
 		vec2 pos;
-		vec2 uv;
+		vec3 uv;
 	};
 
 	class Mesh

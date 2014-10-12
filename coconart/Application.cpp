@@ -5,7 +5,7 @@ using namespace Coconart;
 
 Shader basic_shader;
 Mesh basic_mesh;
-Texture basic_texture;
+TextureArray basic_texture;
 
 void Application::Init()
 {
@@ -20,9 +20,9 @@ void Application::Init()
 	basic_mesh.vertices[0].pos = vec2(0.0, 0.0);
 	basic_mesh.vertices[1].pos = vec2(0.6, 0.1);
 	basic_mesh.vertices[2].pos = vec2(0.5, 0.8);
-	basic_mesh.vertices[0].uv = vec2(0.0, 1.0);
-	basic_mesh.vertices[1].uv = vec2(1.0, 1.0);
-	basic_mesh.vertices[2].uv = vec2(0.0, 0.0);
+	basic_mesh.vertices[0].uv = vec3(0.0, 1.0, 0.0);
+	basic_mesh.vertices[1].uv = vec3(1.0, 1.0, 1.0);
+	basic_mesh.vertices[2].uv = vec3(0.0, 0.0, 2.0);
 	basic_mesh.indices[0] = 0;
 	basic_mesh.indices[1] = 1;
 	basic_mesh.indices[2] = 2;
@@ -31,7 +31,8 @@ void Application::Init()
 
 
 	basic_texture.Create();
-	basic_texture.Load("data\\textures\\SS3.png");
+	//basic_texture.Load("data\\textures\\SS3.png");
+	basic_texture.Load("data\\textures\\texture_array.json");
 	basic_texture.Update();
 }
 

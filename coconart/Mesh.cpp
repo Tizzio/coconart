@@ -32,7 +32,7 @@ void Mesh::CreateGeometry()
 	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offset);
 	offset += sizeof(((Vertex*)0)->pos);
 	//Texcoord
-	glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offset);
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offset);
 	//offset += sizeof(((Vertex*)0)->uv);
 
 	glBindVertexArray(0);
