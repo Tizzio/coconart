@@ -31,6 +31,9 @@
     <Filter Include="Engine\Resources\Resources">
       <UniqueIdentifier>{a3778749-3483-4d17-96c7-52a4e3402d85}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Resources\Resources\Textures">
+      <UniqueIdentifier>{3a70cde6-dbf9-4c69-b470-bdb0d6c0b64e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h">
@@ -78,11 +81,14 @@
     <ClInclude Include="Shader.h">
       <Filter>Engine\Resources\Resources</Filter>
     </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>Engine\Resources\Resources</Filter>
-    </ClInclude>
     <ClInclude Include="Sprite.h">
       <Filter>Engine\Resources\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Resources\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureArray.h">
+      <Filter>Engine\Resources\Resources\Textures</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -120,7 +126,10 @@
       <Filter>Engine\Resources\Resources</Filter>
     </ClCompile>
     <ClCompile Include="Texture.cpp">
-      <Filter>Engine\Resources\Resources</Filter>
+      <Filter>Engine\Resources\Resources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureArray.cpp">
+      <Filter>Engine\Resources\Resources\Textures</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

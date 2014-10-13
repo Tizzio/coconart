@@ -19,3 +19,7 @@ using namespace glm;
 using namespace std;
 
 typedef unsigned char uchar;
+
+
+//class Texture;
+//class TextureArray;
